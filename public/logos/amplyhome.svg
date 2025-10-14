@@ -1,0 +1,9 @@
+<svg width="132" height="38" viewBox="0 0 132 38" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect x="0.75" y="0.75" width="130.5" height="36.5" rx="12" fill="#80FFD3" fill-opacity="0.16" stroke="#0F62FE" stroke-opacity="0.15" stroke-width="1.5" />
+  <path d="M18.5 25.5L13 12.5H16.7L19.5 19.6H19.6L22.4 12.5H26.1L20.6 25.5H18.5Z" fill="#0F62FE" />
+  <path d="M29.5 25.5V12.5H33.1V15H33.2C33.7 13.4 35.2 12.3 37.3 12.3C40.6 12.3 42.5 14.6 42.5 17.9V25.5H38.9V18.6C38.9 16.9 38 15.8 36.4 15.8C34.8 15.8 33.9 17 33.9 18.7V25.5H29.5Z" fill="#0F62FE" />
+  <path d="M56.4 25.5H52.8V18.5C52.8 16.8 52 15.7 50.4 15.7C48.8 15.7 47.8 16.9 47.8 18.6V25.5H44.2V12.5H47.8V15H47.9C48.4 13.4 49.9 12.3 52 12.3C55.3 12.3 56.4 14.6 56.4 17.9V25.5Z" fill="#0F62FE" />
+  <path d="M59.9 25.5V9.5H63.5V25.5H59.9Z" fill="#0F62FE" />
+  <path d="M66 25.5V12.5H69.7V15.1H69.8C70.4 13.5 72 12.3 74.1 12.3C77.4 12.3 79.3 14.6 79.3 17.9V25.5H75.7V18.6C75.7 16.9 74.8 15.8 73.2 15.8C71.6 15.8 70.7 17 70.7 18.7V25.5H66Z" fill="#0F62FE" />
+  <text x="84" y="24" fill="#0F62FE" font-family="'Plus Jakarta Sans', Arial, sans-serif" font-weight="600" font-size="13">AmplyHome</text>
+</svg>

@@ -1,0 +1,24 @@
+<svg width="640" height="480" viewBox="0 0 640 480" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="640" height="480" rx="36" fill="#F7FBFF" />
+  <rect x="36" y="36" width="568" height="408" rx="28" fill="white" stroke="#D9E2F1" stroke-width="2" />
+  <rect x="64" y="80" width="180" height="240" rx="20" fill="#0F62FE" fill-opacity="0.08" />
+  <rect x="268" y="80" width="284" height="140" rx="24" fill="#0F62FE" fill-opacity="0.08" />
+  <rect x="268" y="240" width="284" height="148" rx="24" fill="#0F62FE" fill-opacity="0.08" />
+  <rect x="88" y="108" width="132" height="32" rx="16" fill="#0F62FE" fill-opacity="0.15" />
+  <rect x="92" y="114" width="58" height="20" rx="10" fill="#0F62FE" fill-opacity="0.8" />
+  <rect x="88" y="162" width="132" height="32" rx="16" fill="#0F62FE" fill-opacity="0.15" />
+  <rect x="92" y="168" width="92" height="20" rx="10" fill="#0F62FE" fill-opacity="0.8" />
+  <rect x="88" y="216" width="132" height="32" rx="16" fill="#0F62FE" fill-opacity="0.15" />
+  <rect x="92" y="222" width="76" height="20" rx="10" fill="#0F62FE" fill-opacity="0.8" />
+  <path d="M300 308C316 268 360 252 404 272C436 286 464 282 496 264" stroke="#0F62FE" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" />
+  <path d="M300 308C312 346 344 362 380 350" stroke="#4F8CFE" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" />
+  <circle cx="300" cy="308" r="8" fill="#0F62FE" />
+  <circle cx="380" cy="350" r="8" fill="#4F8CFE" />
+  <circle cx="496" cy="264" r="8" fill="#0F62FE" />
+  <rect x="300" y="112" width="116" height="24" rx="12" fill="#0F62FE" fill-opacity="0.85" />
+  <rect x="428" y="112" width="96" height="24" rx="12" fill="#4F8CFE" fill-opacity="0.55" />
+  <rect x="300" y="152" width="224" height="20" rx="10" fill="#0F62FE" fill-opacity="0.15" />
+  <rect x="300" y="184" width="180" height="20" rx="10" fill="#0F62FE" fill-opacity="0.15" />
+  <rect x="300" y="264" width="120" height="24" rx="12" fill="#0F62FE" fill-opacity="0.15" />
+  <rect x="436" y="264" width="96" height="24" rx="12" fill="#4F8CFE" fill-opacity="0.18" />
+</svg>

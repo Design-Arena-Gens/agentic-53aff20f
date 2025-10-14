@@ -1,0 +1,136 @@
+@import "tailwindcss";
+
+:root {
+  color-scheme: light;
+  --vs-brand-electric: #0f62fe;
+  --vs-brand-sky: #4f8cfe;
+  --vs-brand-mint: #80ffd3;
+  --vs-neutral-900: #0c1a2c;
+  --vs-neutral-700: #304153;
+  --vs-neutral-500: #5c7089;
+  --vs-neutral-200: #d9e2f1;
+  --vs-neutral-100: #edf3fb;
+  --vs-surface: #f7fbff;
+  --vs-shadow-glow: 0 25px 55px rgba(15, 98, 254, 0.15);
+}
+
+@theme inline {
+  --font-sans: var(--font-hubot-sans);
+  --font-mono: var(--font-roboto-mono);
+  --color-background: var(--vs-surface);
+  --color-foreground: var(--vs-neutral-900);
+  --color-brand-primary: var(--vs-brand-electric);
+  --color-brand-accent: var(--vs-brand-mint);
+  --color-brand-muted: var(--vs-brand-sky);
+  --color-neutral-soft: var(--vs-neutral-100);
+  --color-neutral-border: var(--vs-neutral-200);
+  --color-neutral-body: var(--vs-neutral-700);
+  --radius-xl: 2rem;
+  --radius-lg: 1.5rem;
+  --radius-md: 1rem;
+  --radius-sm: 0.625rem;
+  --shadow-focus: 0 0 0 4px color-mix(in srgb, var(--vs-brand-electric) 25%, transparent);
+  --shadow-card: 0 24px 45px -18px rgba(12, 44, 84, 0.22);
+  --shadow-card-hover: 0 36px 70px -24px rgba(12, 44, 84, 0.32);
+  --spacing-3xs: 0.25rem;
+  --spacing-2xs: 0.5rem;
+  --spacing-xs: 0.75rem;
+  --spacing-sm: 1rem;
+  --spacing-md: 1.5rem;
+  --spacing-lg: 2rem;
+  --spacing-xl: 2.5rem;
+  --spacing-2xl: 3rem;
+  --spacing-3xl: 4rem;
+  --text-sm: clamp(0.95rem, 0.9vw, 1rem);
+  --text-base: clamp(1.025rem, 0.95vw, 1.05rem);
+  --text-lg: clamp(1.225rem, 1.3vw, 1.35rem);
+  --text-xl: clamp(1.45rem, 1.75vw, 1.7rem);
+  --text-2xl: clamp(1.75rem, 2.4vw, 2.1rem);
+  --text-3xl: clamp(2.2rem, 3.1vw, 2.65rem);
+  --text-display: clamp(3rem, 6vw, 3.9rem);
+  --text-kicker: 0.82rem;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  font-family: var(--font-sans);
+  background: radial-gradient(
+      circle at top right,
+      color-mix(in srgb, var(--vs-brand-mint) 25%, transparent) 0%,
+      transparent 45%
+    ),
+    radial-gradient(
+      circle at 20% 10%,
+      color-mix(in srgb, var(--vs-brand-sky) 28%, transparent) 0%,
+      transparent 40%
+    ),
+    var(--vs-surface);
+  color: var(--vs-neutral-900);
+  line-height: 1.6;
+}
+
+::selection {
+  background: color-mix(in srgb, var(--vs-brand-electric) 25%, transparent);
+  color: var(--vs-neutral-900);
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.prose a {
+  color: var(--vs-brand-electric);
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+  text-decoration-color: color-mix(
+    in srgb,
+    var(--vs-brand-electric) 50%,
+    transparent
+  );
+  text-underline-offset: 6px;
+}
+
+a:focus-visible,
+button:focus-visible,
+input:focus-visible,
+textarea:focus-visible {
+  outline: none;
+  box-shadow: var(--shadow-focus);
+}
+
+img,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+@layer base {
+  h1,
+  h2,
+  h3,
+  h4 {
+    color: var(--vs-neutral-900);
+    font-weight: 700;
+    letter-spacing: -0.01em;
+  }
+
+  p {
+    color: var(--vs-neutral-700);
+  }
+
+  button {
+    font-family: inherit;
+  }
+}
